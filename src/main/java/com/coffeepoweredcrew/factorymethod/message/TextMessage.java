@@ -6,5 +6,11 @@ public class TextMessage extends Message {
 	public String getContent() {
 		return "Text";
 	}
+
+	@Override
+	public void addDefaultHeaders() {
+		//Adds some default headers
+		System.out.println("addDefaultHeaders for a TextMessage");
+	}
 	
 }

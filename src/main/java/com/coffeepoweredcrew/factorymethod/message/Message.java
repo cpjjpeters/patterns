@@ -11,6 +11,7 @@ public abstract class Message {
 	
 	public void addDefaultHeaders() {
 		//Adds some default headers
+		System.out.println("addDefaultHeaders in abstract class Message");
 	}
 	
 	public void encrypt() {
